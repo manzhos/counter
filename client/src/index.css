@@ -1,0 +1,33 @@
+/* @import "~materialize-css/dist/css/materialize.min.css"; */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.inc-button {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 100%;
+}
+
+.dec-button {
+  position: relative;
+  width: 92px;
+  height: 36px;
+  margin: 0 auto;
+  background-color: tomato;
+  color: white;
+  border-radius: 32px;
+}
+
+.reset-button {
+  text-decoration: underline;
+}
+
+.pos-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
